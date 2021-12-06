@@ -5,7 +5,7 @@ OS=$ID
 ver=$VERSION_ID
 
 #
-GitUser="syapik96"
+GitUser="thekillers123"
 #wget https://github.com/${GitUser}/
 #Install_Packages
 echo "#############################################"
