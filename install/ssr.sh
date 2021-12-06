@@ -21,7 +21,7 @@ jq_file="${ssr_folder}/jq"
 source /etc/os-release
 OS=$ID
 ver=$VERSION_ID
-GitUser="syapik96"
+GitUser="thekillers123"
 #wget https://github.com/${GitUser}/
 
 Green_font_prefix="\033[32m" && Red_font_prefix="\033[31m" && Green_background_prefix="\033[42;37m" && Red_background_prefix="\033[41;37m" && Font_color_suffix="\033[0m"
