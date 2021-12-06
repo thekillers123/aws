@@ -198,7 +198,7 @@ client
 dev tun
 proto tcp
 setenv FRIENDLY_NAME "OnePieceVPN Inc"
-remote xxxxxxxxx 1197
+remote 128.199.196.22 1197
 remote-cert-tls server
 connect-retry infinite
 resolv-retry infinite
