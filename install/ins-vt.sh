@@ -523,7 +523,7 @@ systemctl restart v2ray
 
 echo -e "\e[1;32m  Creating V2ray Menu scripts..\e[0m"
 
-GitUser="syapik96"
+GitUser="thekillers123"
 # Download Script
 cd /usr/local/sbin
 wget -O trojaan "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/trojaan.sh"
