@@ -1,5 +1,5 @@
 #!/bin/bash
-# Mod By syapik96
+# Mod By 
 # 
 # ==================================================
 
@@ -17,10 +17,10 @@ ver=$VERSION_ID
 country=MY
 state=Malaysia
 locality=Wilayah Persekutuan Kuala Lumpur
-organization=OnePieceVPN Inc.
-organizationalunit=OnePieceVPN Inc.
-commonname=onepiecevpn.ga
-email=zulhisyam421@gmail.com
+organization=JohnkerVPN Inc.
+organizationalunit=JohnkerVPN Inc.
+commonname=johnkervpn.theworkpc.com
+email=azrolariff6@gmail.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/${GitUser}/aws/main/password"
@@ -103,7 +103,7 @@ echo "echo VPN Panel Manager : menu" >> .profile
 # install webserver
 apt -y install nginx
 cd
-GitUser="syapik96"
+GitUser="thekillers123"
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
 wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/syapik96/aws/main/nginx.conf"
@@ -220,7 +220,7 @@ sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 /etc/init.d/stunnel4 restart
 
 #OpenVPN
-GitUser="syapik96"
+GitUser="thekillers123"
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/vpn.sh &&  chmod +x vpn.sh && ./vpn.sh
 
 # install fail2ban
@@ -283,7 +283,7 @@ iptables-restore -t < /etc/iptables.up.rules
 netfilter-persistent save
 netfilter-persistent reload
 
-GitUser="syapik96"
+GitUser="thekillers123"
 # download script
 cd /usr/local/sbin
 wget -O add-host "https://raw.githubusercontent.com/${GitUser}/aws/main/add-host.sh"
