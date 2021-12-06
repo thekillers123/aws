@@ -168,7 +168,7 @@ mkdir -p /usr/lib/openvpn/
 cp /usr/lib/x86_64-linux-gnu/openvpn/plugins/openvpn-plugin-auth-pam.so /usr/lib/openvpn/openvpn-plugin-auth-pam.so
 
 # nano /etc/default/openvpn
-sed -i 's/#AUTOSTART="all"/AUTOSTART="all"/g' /etc/default/openvpn
+sed -i 's/AUTOSTART="all"/AUTOSTART="all"/g' /etc/default/openvpn
 # Cari pada baris #AUTOSTART=”all” hilangkan tanda pagar # didepannya sehingga menjadi AUTOSTART=”all”. Save dan keluar dari editor
 
 # restart openvpn dan cek status openvpn
@@ -237,7 +237,7 @@ cat > /etc/openvpn/client-udp-1194.ovpn <<-END
 client
 dev tun
 proto udp
-remote xxxxxxxxx 1194
+remote 128.199.196.22 1194
 rremote-cert-tls server
 connect-retry infinite
 resolv-retry infinite
@@ -273,7 +273,7 @@ cat > /etc/openvpn/client-tcp-1194.ovpn <<-END
 client
 dev tun
 proto tcp
-remote xxxxxxxxx 1194
+remote 128.199.196.22 1194
 rremote-cert-tls server
 connect-retry infinite
 resolv-retry infinite
@@ -309,7 +309,7 @@ cat > /etc/openvpn/client-udp-2200.ovpn <<-END
 client
 dev tun
 proto udp
-remote xxxxxxxxx 2200
+remote 128.199.196.22 2200
 resolv-retry infinite
 route-method exe
 nobind
@@ -330,7 +330,7 @@ cat > /etc/openvpn/client-tcp-2200.ovpn <<-END
 client
 dev tun
 proto tcp
-remote xxxxxxxxx 2200
+remote 128.199.196.22 2200
 resolv-retry infinite
 route-method exe
 nobind
@@ -351,7 +351,7 @@ cat > /etc/openvpn/client-tcp-ssl.ovpn <<-END
 client
 dev tun
 proto tcp
-remote xxxxxxxxx 442
+remote 128.199.196.22 442
 resolv-retry infinite
 route-method exe
 nobind
