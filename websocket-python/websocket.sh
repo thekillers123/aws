@@ -6,7 +6,7 @@ echo Cek Hak Akses...
 sleep 0.5
 
 #Buat name user github dan nama folder
-GitUser="syapik96"
+GitUser="thekillers123"
 #wget https://github.com/${GitUser}/
 #Install system auto run
 cd /etc/systemd/system
