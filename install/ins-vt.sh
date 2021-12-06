@@ -18,7 +18,7 @@ chronyc tracking -v
 date
 
 # install v2ray
-GitUser="syapik96"
+GitUser="thekillers123"
 #wget https://github.com/${GitUser}/
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/go.sh 
 chmod +x go.sh
